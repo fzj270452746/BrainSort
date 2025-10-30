@@ -1,0 +1,4677 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "UianKiety",
+    "printedName": "UianKiety",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UianKiety"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GiocoViewController",
+        "printedName": "GiocoViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "giocoView",
+            "printedName": "giocoView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UianKiety.GiocoView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GiocoView",
+                    "printedName": "UianKiety.GiocoView",
+                    "usr": "c:@M@UianKiety@objc(cs)GiocoView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety19GiocoViewControllerC05giocoD033_F00DA61C4E986BD3E9AE0A2782371E4BLLAA0cD0CSgvp",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC05giocoD033_F00DA61C4E986BD3E9AE0A2782371E4BLLAA0cD0CSgvp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "punteggioLabel",
+            "printedName": "punteggioLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety19GiocoViewControllerC14punteggioLabel33_F00DA61C4E986BD3E9AE0A2782371E4BLLSo7UILabelCSgvp",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC14punteggioLabel33_F00DA61C4E986BD3E9AE0A2782371E4BLLSo7UILabelCSgvp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "tempoLabel",
+            "printedName": "tempoLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety19GiocoViewControllerC10tempoLabel33_F00DA61C4E986BD3E9AE0A2782371E4BLLSo7UILabelCSgvp",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC10tempoLabel33_F00DA61C4E986BD3E9AE0A2782371E4BLLSo7UILabelCSgvp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "viteLabel",
+            "printedName": "viteLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety19GiocoViewControllerC9viteLabel33_F00DA61C4E986BD3E9AE0A2782371E4BLLSo7UILabelCSgvp",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC9viteLabel33_F00DA61C4E986BD3E9AE0A2782371E4BLLSo7UILabelCSgvp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "punteggio",
+            "printedName": "punteggio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety19GiocoViewControllerC9punteggio33_F00DA61C4E986BD3E9AE0A2782371E4BLLSivp",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC9punteggio33_F00DA61C4E986BD3E9AE0A2782371E4BLLSivp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "tempoRimanente",
+            "printedName": "tempoRimanente",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety19GiocoViewControllerC14tempoRimanente33_F00DA61C4E986BD3E9AE0A2782371E4BLLSivp",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC14tempoRimanente33_F00DA61C4E986BD3E9AE0A2782371E4BLLSivp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "viteRimanenti",
+            "printedName": "viteRimanenti",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety19GiocoViewControllerC13viteRimanenti33_F00DA61C4E986BD3E9AE0A2782371E4BLLSivp",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC13viteRimanenti33_F00DA61C4E986BD3E9AE0A2782371E4BLLSivp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "timerDiGioco",
+            "printedName": "timerDiGioco",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Timer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Timer",
+                    "printedName": "Foundation.Timer",
+                    "usr": "c:objc(cs)NSTimer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety19GiocoViewControllerC07timerDiC033_F00DA61C4E986BD3E9AE0A2782371E4BLLSo7NSTimerCSgvp",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC07timerDiC033_F00DA61C4E986BD3E9AE0A2782371E4BLLSo7NSTimerCSgvp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 7,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)GiocoViewController(im)viewDidLoad",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC11viewDidLoadyyF",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GiocoViewController",
+                "printedName": "UianKiety.GiocoViewController",
+                "usr": "c:@M@UianKiety@objc(cs)GiocoViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)GiocoViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UianKiety.GiocoViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GiocoViewController",
+                    "printedName": "UianKiety.GiocoViewController",
+                    "usr": "c:@M@UianKiety@objc(cs)GiocoViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)GiocoViewController(im)initWithCoder:",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "uovoConsegnatoConSuccesso",
+            "printedName": "uovoConsegnatoConSuccesso()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety19GiocoViewControllerC25uovoConsegnatoConSuccessoyyF",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC25uovoConsegnatoConSuccessoyyF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uovoRotto",
+            "printedName": "uovoRotto()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety19GiocoViewControllerC9uovoRottoyyF",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC9uovoRottoyyF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tuttiUoviConsegnati",
+            "printedName": "tuttiUoviConsegnati()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety19GiocoViewControllerC19tuttiUoviConsegnatiyyF",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC19tuttiUoviConsegnatiyyF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "riavviaGioco",
+            "printedName": "riavviaGioco()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety19GiocoViewControllerC07riavviaC0yyF",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC07riavviaC0yyF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "esciDalGioco",
+            "printedName": "esciDalGioco()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety19GiocoViewControllerC07esciDalC0yyF",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC07esciDalC0yyF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "animationController",
+            "printedName": "animationController(forPresented:presenting:source:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any UIKit.UIViewControllerAnimatedTransitioning)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewControllerAnimatedTransitioning",
+                    "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
+                    "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UianKiety@objc(cs)GiocoViewController(im)animationControllerForPresentedController:presentingController:sourceController:",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC09animationE012forPresented10presenting6sourceSo06UIViewE21AnimatedTransitioning_pSgSo0kE0C_A2KtF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "objc_name": "animationControllerForPresentedController:presentingController:sourceController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "animationController",
+            "printedName": "animationController(forDismissed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any UIKit.UIViewControllerAnimatedTransitioning)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewControllerAnimatedTransitioning",
+                    "printedName": "any UIKit.UIViewControllerAnimatedTransitioning",
+                    "usr": "c:objc(pl)UIViewControllerAnimatedTransitioning"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@UianKiety@objc(cs)GiocoViewController(im)animationControllerForDismissedController:",
+            "mangledName": "$s9UianKiety19GiocoViewControllerC09animationE012forDismissedSo06UIViewE21AnimatedTransitioning_pSgSo0iE0C_tF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "objc_name": "animationControllerForDismissedController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UianKiety@objc(cs)GiocoViewController",
+        "mangledName": "$s9UianKiety19GiocoViewControllerC",
+        "moduleName": "UianKiety",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "GiocoViewDelegate",
+            "printedName": "GiocoViewDelegate",
+            "usr": "s:9UianKiety17GiocoViewDelegateP",
+            "mangledName": "$s9UianKiety17GiocoViewDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DialogoFineGiocoDelegate",
+            "printedName": "DialogoFineGiocoDelegate",
+            "usr": "s:9UianKiety24DialogoFineGiocoDelegateP",
+            "mangledName": "$s9UianKiety24DialogoFineGiocoDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GiocoViewDelegate",
+        "printedName": "GiocoViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "uovoConsegnatoConSuccesso",
+            "printedName": "uovoConsegnatoConSuccesso()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety17GiocoViewDelegateP25uovoConsegnatoConSuccessoyyF",
+            "mangledName": "$s9UianKiety17GiocoViewDelegateP25uovoConsegnatoConSuccessoyyF",
+            "moduleName": "UianKiety",
+            "genericSig": "<τ_0_0 where τ_0_0 : UianKiety.GiocoViewDelegate>",
+            "sugared_genericSig": "<Self where Self : UianKiety.GiocoViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uovoRotto",
+            "printedName": "uovoRotto()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety17GiocoViewDelegateP9uovoRottoyyF",
+            "mangledName": "$s9UianKiety17GiocoViewDelegateP9uovoRottoyyF",
+            "moduleName": "UianKiety",
+            "genericSig": "<τ_0_0 where τ_0_0 : UianKiety.GiocoViewDelegate>",
+            "sugared_genericSig": "<Self where Self : UianKiety.GiocoViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tuttiUoviConsegnati",
+            "printedName": "tuttiUoviConsegnati()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety17GiocoViewDelegateP19tuttiUoviConsegnatiyyF",
+            "mangledName": "$s9UianKiety17GiocoViewDelegateP19tuttiUoviConsegnatiyyF",
+            "moduleName": "UianKiety",
+            "genericSig": "<τ_0_0 where τ_0_0 : UianKiety.GiocoViewDelegate>",
+            "sugared_genericSig": "<Self where Self : UianKiety.GiocoViewDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9UianKiety17GiocoViewDelegateP",
+        "mangledName": "$s9UianKiety17GiocoViewDelegateP",
+        "moduleName": "UianKiety",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Nuke",
+        "printedName": "Nuke",
+        "declKind": "Import",
+        "moduleName": "UianKiety"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GiocoView",
+        "printedName": "GiocoView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any UianKiety.GiocoViewDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety9GiocoViewC8delegateAA0cD8Delegate_pSgvp",
+            "mangledName": "$s9UianKiety9GiocoViewC8delegateAA0cD8Delegate_pSgvp",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any UianKiety.GiocoViewDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GiocoViewDelegate",
+                        "printedName": "any UianKiety.GiocoViewDelegate",
+                        "usr": "s:9UianKiety17GiocoViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9GiocoViewC8delegateAA0cD8Delegate_pSgvg",
+                "mangledName": "$s9UianKiety9GiocoViewC8delegateAA0cD8Delegate_pSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any UianKiety.GiocoViewDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GiocoViewDelegate",
+                        "printedName": "any UianKiety.GiocoViewDelegate",
+                        "usr": "s:9UianKiety17GiocoViewDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9GiocoViewC8delegateAA0cD8Delegate_pSgvs",
+                "mangledName": "$s9UianKiety9GiocoViewC8delegateAA0cD8Delegate_pSgvs",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9GiocoViewC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s9UianKiety9GiocoViewC8delegateAA0cD8Delegate_pSgvM",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GiocoView",
+                "printedName": "UianKiety.GiocoView",
+                "usr": "c:@M@UianKiety@objc(cs)GiocoView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)GiocoView(im)initWithFrame:",
+            "mangledName": "$s9UianKiety9GiocoViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UianKiety.GiocoView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GiocoView",
+                    "printedName": "UianKiety.GiocoView",
+                    "usr": "c:@M@UianKiety@objc(cs)GiocoView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)GiocoView(im)initWithCoder:",
+            "mangledName": "$s9UianKiety9GiocoViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "avviaPartita",
+            "printedName": "avviaPartita()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety9GiocoViewC12avviaPartitayyF",
+            "mangledName": "$s9UianKiety9GiocoViewC12avviaPartitayyF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "touchesMoved",
+            "printedName": "touchesMoved(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UITouch>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITouch",
+                    "printedName": "UIKit.UITouch",
+                    "usr": "c:objc(cs)UITouch"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)GiocoView(im)touchesMoved:withEvent:",
+            "mangledName": "$s9UianKiety9GiocoViewC12touchesMoved_4withyShySo7UITouchCG_So7UIEventCSgtF",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "touchesMoved:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UianKiety@objc(cs)GiocoView",
+        "mangledName": "$s9UianKiety9GiocoViewC",
+        "moduleName": "UianKiety",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DialogoFineGiocoDelegate",
+        "printedName": "DialogoFineGiocoDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "riavviaGioco",
+            "printedName": "riavviaGioco()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety24DialogoFineGiocoDelegateP07riavviaE0yyF",
+            "mangledName": "$s9UianKiety24DialogoFineGiocoDelegateP07riavviaE0yyF",
+            "moduleName": "UianKiety",
+            "genericSig": "<τ_0_0 where τ_0_0 : UianKiety.DialogoFineGiocoDelegate>",
+            "sugared_genericSig": "<Self where Self : UianKiety.DialogoFineGiocoDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "esciDalGioco",
+            "printedName": "esciDalGioco()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety24DialogoFineGiocoDelegateP07esciDalE0yyF",
+            "mangledName": "$s9UianKiety24DialogoFineGiocoDelegateP07esciDalE0yyF",
+            "moduleName": "UianKiety",
+            "genericSig": "<τ_0_0 where τ_0_0 : UianKiety.DialogoFineGiocoDelegate>",
+            "sugared_genericSig": "<Self where Self : UianKiety.DialogoFineGiocoDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9UianKiety24DialogoFineGiocoDelegateP",
+        "mangledName": "$s9UianKiety24DialogoFineGiocoDelegateP",
+        "moduleName": "UianKiety",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DialogoFineGioco",
+        "printedName": "DialogoFineGioco",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "titolo",
+            "printedName": "titolo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety16DialogoFineGiocoC6titolo33_F00DA61C4E986BD3E9AE0A2782371E4BLLSSvp",
+            "mangledName": "$s9UianKiety16DialogoFineGiocoC6titolo33_F00DA61C4E986BD3E9AE0A2782371E4BLLSSvp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "messaggio",
+            "printedName": "messaggio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety16DialogoFineGiocoC9messaggio33_F00DA61C4E986BD3E9AE0A2782371E4BLLSSvp",
+            "mangledName": "$s9UianKiety16DialogoFineGiocoC9messaggio33_F00DA61C4E986BD3E9AE0A2782371E4BLLSSvp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any UianKiety.DialogoFineGiocoDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety16DialogoFineGiocoC8delegateAA0cdE8Delegate_pSgvp",
+            "mangledName": "$s9UianKiety16DialogoFineGiocoC8delegateAA0cdE8Delegate_pSgvp",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership"
+            ],
+            "fixedbinaryorder": 2,
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any UianKiety.DialogoFineGiocoDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DialogoFineGiocoDelegate",
+                        "printedName": "any UianKiety.DialogoFineGiocoDelegate",
+                        "usr": "s:9UianKiety24DialogoFineGiocoDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16DialogoFineGiocoC8delegateAA0cdE8Delegate_pSgvg",
+                "mangledName": "$s9UianKiety16DialogoFineGiocoC8delegateAA0cdE8Delegate_pSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any UianKiety.DialogoFineGiocoDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DialogoFineGiocoDelegate",
+                        "printedName": "any UianKiety.DialogoFineGiocoDelegate",
+                        "usr": "s:9UianKiety24DialogoFineGiocoDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16DialogoFineGiocoC8delegateAA0cdE8Delegate_pSgvs",
+                "mangledName": "$s9UianKiety16DialogoFineGiocoC8delegateAA0cdE8Delegate_pSgvs",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16DialogoFineGiocoC8delegateAA0cdE8Delegate_pSgvM",
+                "mangledName": "$s9UianKiety16DialogoFineGiocoC8delegateAA0cdE8Delegate_pSgvM",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contenitoreView",
+            "printedName": "contenitoreView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety16DialogoFineGiocoC15contenitoreViewSo6UIViewCvp",
+            "mangledName": "$s9UianKiety16DialogoFineGiocoC15contenitoreViewSo6UIViewCvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16DialogoFineGiocoC15contenitoreViewSo6UIViewCvg",
+                "mangledName": "$s9UianKiety16DialogoFineGiocoC15contenitoreViewSo6UIViewCvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(titolo:messaggio:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DialogoFineGioco",
+                "printedName": "UianKiety.DialogoFineGioco",
+                "usr": "c:@M@UianKiety@objc(cs)DialogoFineGioco"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9UianKiety16DialogoFineGiocoC6titolo9messaggioACSS_SStcfc",
+            "mangledName": "$s9UianKiety16DialogoFineGiocoC6titolo9messaggioACSS_SStcfc",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UianKiety.DialogoFineGioco?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DialogoFineGioco",
+                    "printedName": "UianKiety.DialogoFineGioco",
+                    "usr": "c:@M@UianKiety@objc(cs)DialogoFineGioco"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)DialogoFineGioco(im)initWithCoder:",
+            "mangledName": "$s9UianKiety16DialogoFineGiocoC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)DialogoFineGioco(im)viewDidLoad",
+            "mangledName": "$s9UianKiety16DialogoFineGiocoC11viewDidLoadyyF",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DialogoFineGioco",
+                "printedName": "UianKiety.DialogoFineGioco",
+                "usr": "c:@M@UianKiety@objc(cs)DialogoFineGioco"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)DialogoFineGioco(im)initWithNibName:bundle:",
+            "mangledName": "$s9UianKiety16DialogoFineGiocoC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UianKiety@objc(cs)DialogoFineGioco",
+        "mangledName": "$s9UianKiety16DialogoFineGiocoC",
+        "moduleName": "UianKiety",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnimazioneDialogo",
+        "printedName": "AnimazioneDialogo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "presenting",
+            "printedName": "presenting",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety17AnimazioneDialogoC10presenting33_F00DA61C4E986BD3E9AE0A2782371E4BLLSbvp",
+            "mangledName": "$s9UianKiety17AnimazioneDialogoC10presenting33_F00DA61C4E986BD3E9AE0A2782371E4BLLSbvp",
+            "moduleName": "UianKiety",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(presenting:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimazioneDialogo",
+                "printedName": "UianKiety.AnimazioneDialogo",
+                "usr": "c:@M@UianKiety@objc(cs)AnimazioneDialogo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9UianKiety17AnimazioneDialogoC10presentingACSb_tcfc",
+            "mangledName": "$s9UianKiety17AnimazioneDialogoC10presentingACSb_tcfc",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "transitionDuration",
+            "printedName": "transitionDuration(using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any UIKit.UIViewControllerContextTransitioning)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewControllerContextTransitioning",
+                    "printedName": "any UIKit.UIViewControllerContextTransitioning",
+                    "usr": "c:objc(pl)UIViewControllerContextTransitioning"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)AnimazioneDialogo(im)transitionDuration:",
+            "mangledName": "$s9UianKiety17AnimazioneDialogoC18transitionDuration5usingSdSo36UIViewControllerContextTransitioning_pSg_tF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "objc_name": "transitionDuration:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "animateTransition",
+            "printedName": "animateTransition(using:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerContextTransitioning",
+                "printedName": "any UIKit.UIViewControllerContextTransitioning",
+                "usr": "c:objc(pl)UIViewControllerContextTransitioning"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)AnimazioneDialogo(im)animateTransition:",
+            "mangledName": "$s9UianKiety17AnimazioneDialogoC17animateTransition5usingySo36UIViewControllerContextTransitioning_p_tF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "objc_name": "animateTransition:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimazioneDialogo",
+                "printedName": "UianKiety.AnimazioneDialogo",
+                "usr": "c:@M@UianKiety@objc(cs)AnimazioneDialogo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)AnimazioneDialogo(im)init",
+            "mangledName": "$s9UianKiety17AnimazioneDialogoCACycfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UianKiety@objc(cs)AnimazioneDialogo",
+        "mangledName": "$s9UianKiety17AnimazioneDialogoC",
+        "moduleName": "UianKiety",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UianKiety"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UianKiety"
+      },
+      {
+        "kind": "Function",
+        "name": "HuenadVaiod",
+        "printedName": "HuenadVaiod(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9UianKiety11HuenadVaiodySSSgSSF",
+        "mangledName": "$s9UianKiety11HuenadVaiodySSSgSSF",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "kTuahdbPIkds",
+        "printedName": "kTuahdbPIkds",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9UianKiety12kTuahdbPIkdsSSvp",
+        "mangledName": "$s9UianKiety12kTuahdbPIkdsSSvp",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "kYAYAOIE",
+        "printedName": "kYAYAOIE",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9UianKiety8kYAYAOIESSvp",
+        "mangledName": "$s9UianKiety8kYAYAOIESSvp",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "kRauyBaiors",
+        "printedName": "kRauyBaiors",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9UianKiety11kRauyBaiorsSSvp",
+        "mangledName": "$s9UianKiety11kRauyBaiorsSSvp",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "LoeinshVZHUE",
+        "printedName": "LoeinshVZHUE()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9UianKiety12LoeinshVZHUEyyF",
+        "mangledName": "$s9UianKiety12LoeinshVZHUEyyF",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "danyOueatts",
+        "printedName": "danyOueatts()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9UianKiety11danyOueattsyyF",
+        "mangledName": "$s9UianKiety11danyOueattsyyF",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "absgeReaeodj",
+        "printedName": "absgeReaeodj(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "BleuaSoir",
+            "printedName": "UianKiety.BleuaSoir",
+            "usr": "s:9UianKiety9BleuaSoirV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9UianKiety12absgeReaeodjyyAA9BleuaSoirVF",
+        "mangledName": "$s9UianKiety12absgeReaeodjyyAA9BleuaSoirVF",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "danaioXaoirua",
+        "printedName": "danaioXaoirua(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "BleuaSoir",
+            "printedName": "UianKiety.BleuaSoir",
+            "usr": "s:9UianKiety9BleuaSoirV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9UianKiety13danaioXaoiruayyAA9BleuaSoirVF",
+        "mangledName": "$s9UianKiety13danaioXaoiruayyAA9BleuaSoirVF",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SoruytyHama",
+        "printedName": "SoruytyHama",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "xveer",
+            "printedName": "xveer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety11SoruytyHamaV5xveerSSSgvp",
+            "mangledName": "$s9UianKiety11SoruytyHamaV5xveerSSSgvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety11SoruytyHamaV5xveerSSSgvg",
+                "mangledName": "$s9UianKiety11SoruytyHamaV5xveerSSSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "country",
+            "printedName": "country",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UianKiety.SoruytyHama.JeasyVgae?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JeasyVgae",
+                    "printedName": "UianKiety.SoruytyHama.JeasyVgae",
+                    "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety11SoruytyHamaV7countryAC9JeasyVgaeVSgvp",
+            "mangledName": "$s9UianKiety11SoruytyHamaV7countryAC9JeasyVgaeVSgvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UianKiety.SoruytyHama.JeasyVgae?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JeasyVgae",
+                        "printedName": "UianKiety.SoruytyHama.JeasyVgae",
+                        "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety11SoruytyHamaV7countryAC9JeasyVgaeVSgvg",
+                "mangledName": "$s9UianKiety11SoruytyHamaV7countryAC9JeasyVgaeVSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "JeasyVgae",
+            "printedName": "JeasyVgae",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "code",
+                "printedName": "code",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV4codeSSvp",
+                "mangledName": "$s9UianKiety11SoruytyHamaV9JeasyVgaeV4codeSSvp",
+                "moduleName": "UianKiety",
+                "declAttributes": [
+                  "HasStorage"
+                ],
+                "fixedbinaryorder": 0,
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV4codeSSvg",
+                    "mangledName": "$s9UianKiety11SoruytyHamaV9JeasyVgaeV4codeSSvg",
+                    "moduleName": "UianKiety",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(code:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JeasyVgae",
+                    "printedName": "UianKiety.SoruytyHama.JeasyVgae",
+                    "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV4codeAESS_tcfc",
+                "mangledName": "$s9UianKiety11SoruytyHamaV9JeasyVgaeV4codeAESS_tcfc",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JeasyVgae",
+                    "printedName": "UianKiety.SoruytyHama.JeasyVgae",
+                    "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s9UianKiety11SoruytyHamaV9JeasyVgaeV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV",
+            "mangledName": "$s9UianKiety11SoruytyHamaV9JeasyVgaeV",
+            "moduleName": "UianKiety",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(xveer:country:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SoruytyHama",
+                "printedName": "UianKiety.SoruytyHama",
+                "usr": "s:9UianKiety11SoruytyHamaV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UianKiety.SoruytyHama.JeasyVgae?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JeasyVgae",
+                    "printedName": "UianKiety.SoruytyHama.JeasyVgae",
+                    "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9UianKiety11SoruytyHamaV5xveer7countryACSSSg_AC9JeasyVgaeVSgtcfc",
+            "mangledName": "$s9UianKiety11SoruytyHamaV5xveer7countryACSSSg_AC9JeasyVgaeVSgtcfc",
+            "moduleName": "UianKiety",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SoruytyHama",
+                "printedName": "UianKiety.SoruytyHama",
+                "usr": "s:9UianKiety11SoruytyHamaV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9UianKiety11SoruytyHamaV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9UianKiety11SoruytyHamaV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "UianKiety",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9UianKiety11SoruytyHamaV",
+        "mangledName": "$s9UianKiety11SoruytyHamaV",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BleuaSoir",
+        "printedName": "BleuaSoir",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mvjusa",
+            "printedName": "mvjusa",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety9BleuaSoirV6mvjusaSiSgvp",
+            "mangledName": "$s9UianKiety9BleuaSoirV6mvjusaSiSgvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9BleuaSoirV6mvjusaSiSgvg",
+                "mangledName": "$s9UianKiety9BleuaSoirV6mvjusaSiSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lsoeiu",
+            "printedName": "lsoeiu",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety9BleuaSoirV6lsoeiuSSSgvp",
+            "mangledName": "$s9UianKiety9BleuaSoirV6lsoeiuSSSgvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9BleuaSoirV6lsoeiuSSSgvg",
+                "mangledName": "$s9UianKiety9BleuaSoirV6lsoeiuSSSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "qunsu",
+            "printedName": "qunsu",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety9BleuaSoirV5qunsuSSSgvp",
+            "mangledName": "$s9UianKiety9BleuaSoirV5qunsuSSSgvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9BleuaSoirV5qunsuSSSgvg",
+                "mangledName": "$s9UianKiety9BleuaSoirV5qunsuSSSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sahmie",
+            "printedName": "sahmie",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety9BleuaSoirV6sahmieSSSgvp",
+            "mangledName": "$s9UianKiety9BleuaSoirV6sahmieSSSgvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9BleuaSoirV6sahmieSSSgvg",
+                "mangledName": "$s9UianKiety9BleuaSoirV6sahmieSSSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tdincd",
+            "printedName": "tdincd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety9BleuaSoirV6tdincdSSSgvp",
+            "mangledName": "$s9UianKiety9BleuaSoirV6tdincdSSSgvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9BleuaSoirV6tdincdSSSgvg",
+                "mangledName": "$s9UianKiety9BleuaSoirV6tdincdSSSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "kiento",
+            "printedName": "kiento",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety9BleuaSoirV6kientoSSSgvp",
+            "mangledName": "$s9UianKiety9BleuaSoirV6kientoSSSgvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9BleuaSoirV6kientoSSSgvg",
+                "mangledName": "$s9UianKiety9BleuaSoirV6kientoSSSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lindke",
+            "printedName": "lindke",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety9BleuaSoirV6lindkeSSSgvp",
+            "mangledName": "$s9UianKiety9BleuaSoirV6lindkeSSSgvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9BleuaSoirV6lindkeSSSgvg",
+                "mangledName": "$s9UianKiety9BleuaSoirV6lindkeSSSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "grourn",
+            "printedName": "grourn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety9BleuaSoirV6grournSaySSGSgvp",
+            "mangledName": "$s9UianKiety9BleuaSoirV6grournSaySSGSgvp",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety9BleuaSoirV6grournSaySSGSgvg",
+                "mangledName": "$s9UianKiety9BleuaSoirV6grournSaySSGSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mvjusa:lsoeiu:qunsu:sahmie:tdincd:kiento:lindke:grourn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BleuaSoir",
+                "printedName": "UianKiety.BleuaSoir",
+                "usr": "s:9UianKiety9BleuaSoirV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9UianKiety9BleuaSoirV6mvjusa6lsoeiu5qunsu6sahmie6tdincd6kiento6lindke6grournACSiSg_SSSgA5MSaySSGSgtcfc",
+            "mangledName": "$s9UianKiety9BleuaSoirV6mvjusa6lsoeiu5qunsu6sahmie6tdincd6kiento6lindke6grournACSiSg_SSSgA5MSaySSGSgtcfc",
+            "moduleName": "UianKiety",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BleuaSoir",
+                "printedName": "UianKiety.BleuaSoir",
+                "usr": "s:9UianKiety9BleuaSoirV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9UianKiety9BleuaSoirV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9UianKiety9BleuaSoirV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "UianKiety",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UianKiety9BleuaSoirV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9UianKiety9BleuaSoirV6encode2toys7Encoder_p_tKF",
+            "moduleName": "UianKiety",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9UianKiety9BleuaSoirV",
+        "mangledName": "$s9UianKiety9BleuaSoirV",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "BaitudmaOPier",
+        "printedName": "BaitudmaOPier()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9UianKiety13BaitudmaOPierSbyF",
+        "mangledName": "$s9UianKiety13BaitudmaOPierSbyF",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "TaurenOeus",
+        "printedName": "TaurenOeus()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9UianKiety10TaurenOeusSbyF",
+        "mangledName": "$s9UianKiety10TaurenOeusSbyF",
+        "moduleName": "UianKiety",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UianKiety"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "UianKiety"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShanyaobianzhiVC",
+        "printedName": "ShanyaobianzhiVC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "xindguoGHyue",
+            "printedName": "xindguoGHyue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UianKiety.BleuaSoir?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BleuaSoir",
+                    "printedName": "UianKiety.BleuaSoir",
+                    "usr": "s:9UianKiety9BleuaSoirV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvp",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvp",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UianKiety.BleuaSoir?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BleuaSoir",
+                        "printedName": "UianKiety.BleuaSoir",
+                        "usr": "s:9UianKiety9BleuaSoirV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvg",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UianKiety.BleuaSoir?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BleuaSoir",
+                        "printedName": "UianKiety.BleuaSoir",
+                        "usr": "s:9UianKiety9BleuaSoirV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvs",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvs",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvM",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvM",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sjuosk",
+            "printedName": "sjuosk",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvp",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvp",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvg",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvs",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvs",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvM",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvM",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)viewDidLoad",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC11viewDidLoadyyF",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)viewDidLayoutSubviews",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC21viewDidLayoutSubviewsyyF",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC7webView_15decidePolicyFor15decisionHandlerySo05WKWebF0C_So18WKNavigationActionCySo0mnH0VctF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC7webView_09createWebF4With3for14windowFeaturesSo05WKWebF0CSgAI_So0mF13ConfigurationCSo18WKNavigationActionCSo08WKWindowL0CtF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webViewDidClose",
+            "printedName": "webViewDidClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)webViewDidClose:",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC15webViewDidCloseyySo05WKWebF0CF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "objc_name": "webViewDidClose:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(py)shouldAutorotate",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC16shouldAutorotateSbvp",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)shouldAutorotate",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC16shouldAutorotateSbvg",
+                "moduleName": "UianKiety",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(py)supportedInterfaceOrientations",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)supportedInterfaceOrientations",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "UianKiety",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShanyaobianzhiVC",
+                "printedName": "UianKiety.ShanyaobianzhiVC",
+                "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)initWithNibName:bundle:",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UianKiety.ShanyaobianzhiVC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShanyaobianzhiVC",
+                    "printedName": "UianKiety.ShanyaobianzhiVC",
+                    "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)initWithCoder:",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC",
+        "mangledName": "$s9UianKiety16ShanyaobianzhiVCC",
+        "moduleName": "UianKiety",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "gold",
+            "printedName": "gold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC9UianKietyE4goldABvpZ",
+            "mangledName": "$sSo7UIColorC9UianKietyE4goldABvpZ",
+            "moduleName": "UianKiety",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC9UianKietyE4goldABvgZ",
+                "mangledName": "$sSo7UIColorC9UianKietyE4goldABvgZ",
+                "moduleName": "UianKiety",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "darkBrown",
+            "printedName": "darkBrown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC9UianKietyE9darkBrownABvpZ",
+            "mangledName": "$sSo7UIColorC9UianKietyE9darkBrownABvpZ",
+            "moduleName": "UianKiety",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC9UianKietyE9darkBrownABvgZ",
+                "mangledName": "$sSo7UIColorC9UianKietyE9darkBrownABvgZ",
+                "moduleName": "UianKiety",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "systemPurple",
+            "printedName": "systemPurple",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC9UianKietyE12systemPurpleABvpZ",
+            "mangledName": "$sSo7UIColorC9UianKietyE12systemPurpleABvpZ",
+            "moduleName": "UianKiety",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC9UianKietyE12systemPurpleABvgZ",
+                "mangledName": "$sSo7UIColorC9UianKietyE12systemPurpleABvgZ",
+                "moduleName": "UianKiety",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC9UianKietyE3hex5alphaABSi_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC9UianKietyE3hex5alphaABSi_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hexString:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC9UianKietyE9hexString5alphaABSgSS_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC9UianKietyE9hexString5alphaABSgSS_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "UianKiety",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 354,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "Array",
+      "offset": 7920,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "Array",
+      "offset": 7960,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8003,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8038,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20277,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20313,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20472,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20483,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20521,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 20559,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 27409,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 27421,
+      "length": 4,
+      "value": "0.84"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 27433,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 27445,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 27490,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 27502,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 27513,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 27525,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/KoeuysnTidus.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 46,
+      "value": "\"My8vKyhhdHQ6KzJ1NiJ2Mit1MjR0LWl0Mit1MSg0NQ==\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/KoeuysnTidus.swift",
+      "kind": "StringLiteral",
+      "offset": 681,
+      "length": 82,
+      "value": "\"My8vKyhhdHRtYmtobTo4bj9rPWprOmhvazlpb2ltY2t1NjQ4MDorMnUyNHQ\/MyI6LnQoNCkvNzIoNSg=\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/KoeuysnTidus.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 82,
+      "value": "\"My8vKyhhdHQpOix1PDIvMy45Lig+KTg0NS8+NS91ODQ2dDE\/LjE6dDkpOjV0NjoyNXQ5Mz8udTErPA==\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/KoeuysnTidus.swift",
+      "kind": "FloatLiteral",
+      "offset": 4234,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/KoeuysnTidus.swift",
+      "kind": "FloatLiteral",
+      "offset": 4529,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/ShanyaobianzhiVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2713,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
