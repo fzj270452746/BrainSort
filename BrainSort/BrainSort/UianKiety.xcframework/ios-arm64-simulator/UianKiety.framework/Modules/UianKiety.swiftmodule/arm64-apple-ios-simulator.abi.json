@@ -12,6 +12,750 @@
         "moduleName": "UianKiety"
       },
       {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "UianKiety"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ShanyaobianzhiVC",
+        "printedName": "ShanyaobianzhiVC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "xindguoGHyue",
+            "printedName": "xindguoGHyue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UianKiety.BleuaSoir?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BleuaSoir",
+                    "printedName": "UianKiety.BleuaSoir",
+                    "usr": "s:9UianKiety9BleuaSoirV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvp",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvp",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UianKiety.BleuaSoir?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BleuaSoir",
+                        "printedName": "UianKiety.BleuaSoir",
+                        "usr": "s:9UianKiety9BleuaSoirV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvg",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UianKiety.BleuaSoir?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BleuaSoir",
+                        "printedName": "UianKiety.BleuaSoir",
+                        "usr": "s:9UianKiety9BleuaSoirV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvs",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvs",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvM",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvM",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sjuosk",
+            "printedName": "sjuosk",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvp",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvp",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvg",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvg",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvs",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvs",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvM",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvM",
+                "moduleName": "UianKiety",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)viewDidLoad",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC11viewDidLoadyyF",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)viewDidLayoutSubviews",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC21viewDidLayoutSubviewsyyF",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC7webView_15decidePolicyFor15decisionHandlerySo05WKWebF0C_So18WKNavigationActionCySo0mnH0VctF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC7webView_09createWebF4With3for14windowFeaturesSo05WKWebF0CSgAI_So0mF13ConfigurationCSo18WKNavigationActionCSo08WKWindowL0CtF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webViewDidClose",
+            "printedName": "webViewDidClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)webViewDidClose:",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC15webViewDidCloseyySo05WKWebF0CF",
+            "moduleName": "UianKiety",
+            "isOpen": true,
+            "objc_name": "webViewDidClose:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(py)shouldAutorotate",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC16shouldAutorotateSbvp",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)shouldAutorotate",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC16shouldAutorotateSbvg",
+                "moduleName": "UianKiety",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(py)supportedInterfaceOrientations",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)supportedInterfaceOrientations",
+                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "UianKiety",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ShanyaobianzhiVC",
+                "printedName": "UianKiety.ShanyaobianzhiVC",
+                "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)initWithNibName:bundle:",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UianKiety.ShanyaobianzhiVC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ShanyaobianzhiVC",
+                    "printedName": "UianKiety.ShanyaobianzhiVC",
+                    "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)initWithCoder:",
+            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "UianKiety",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC",
+        "mangledName": "$s9UianKiety16ShanyaobianzhiVCC",
+        "moduleName": "UianKiety",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UianKiety"
+      },
+      {
         "kind": "TypeDecl",
         "name": "GiocoViewController",
         "printedName": "GiocoViewController",
@@ -695,6 +1439,13 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -2202,388 +2953,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SoruytyHama",
-        "printedName": "SoruytyHama",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "xveer",
-            "printedName": "xveer",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UianKiety11SoruytyHamaV5xveerSSSgvp",
-            "mangledName": "$s9UianKiety11SoruytyHamaV5xveerSSSgvp",
-            "moduleName": "UianKiety",
-            "declAttributes": [
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UianKiety11SoruytyHamaV5xveerSSSgvg",
-                "mangledName": "$s9UianKiety11SoruytyHamaV5xveerSSSgvg",
-                "moduleName": "UianKiety",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "country",
-            "printedName": "country",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UianKiety.SoruytyHama.JeasyVgae?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "JeasyVgae",
-                    "printedName": "UianKiety.SoruytyHama.JeasyVgae",
-                    "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UianKiety11SoruytyHamaV7countryAC9JeasyVgaeVSgvp",
-            "mangledName": "$s9UianKiety11SoruytyHamaV7countryAC9JeasyVgaeVSgvp",
-            "moduleName": "UianKiety",
-            "declAttributes": [
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UianKiety.SoruytyHama.JeasyVgae?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "JeasyVgae",
-                        "printedName": "UianKiety.SoruytyHama.JeasyVgae",
-                        "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UianKiety11SoruytyHamaV7countryAC9JeasyVgaeVSgvg",
-                "mangledName": "$s9UianKiety11SoruytyHamaV7countryAC9JeasyVgaeVSgvg",
-                "moduleName": "UianKiety",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "JeasyVgae",
-            "printedName": "JeasyVgae",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "code",
-                "printedName": "code",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV4codeSSvp",
-                "mangledName": "$s9UianKiety11SoruytyHamaV9JeasyVgaeV4codeSSvp",
-                "moduleName": "UianKiety",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 0,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV4codeSSvg",
-                    "mangledName": "$s9UianKiety11SoruytyHamaV9JeasyVgaeV4codeSSvg",
-                    "moduleName": "UianKiety",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(code:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "JeasyVgae",
-                    "printedName": "UianKiety.SoruytyHama.JeasyVgae",
-                    "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV4codeAESS_tcfc",
-                "mangledName": "$s9UianKiety11SoruytyHamaV9JeasyVgaeV4codeAESS_tcfc",
-                "moduleName": "UianKiety",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(from:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "JeasyVgae",
-                    "printedName": "UianKiety.SoruytyHama.JeasyVgae",
-                    "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Decoder",
-                    "printedName": "any Swift.Decoder",
-                    "usr": "s:s7DecoderP"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV4fromAEs7Decoder_p_tKcfc",
-                "mangledName": "$s9UianKiety11SoruytyHamaV9JeasyVgaeV4fromAEs7Decoder_p_tKcfc",
-                "moduleName": "UianKiety",
-                "implicit": true,
-                "throwing": true,
-                "init_kind": "Designated"
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV",
-            "mangledName": "$s9UianKiety11SoruytyHamaV9JeasyVgaeV",
-            "moduleName": "UianKiety",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Decodable",
-                "printedName": "Decodable",
-                "usr": "s:Se",
-                "mangledName": "$sSe"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(xveer:country:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SoruytyHama",
-                "printedName": "UianKiety.SoruytyHama",
-                "usr": "s:9UianKiety11SoruytyHamaV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UianKiety.SoruytyHama.JeasyVgae?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "JeasyVgae",
-                    "printedName": "UianKiety.SoruytyHama.JeasyVgae",
-                    "usr": "s:9UianKiety11SoruytyHamaV9JeasyVgaeV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9UianKiety11SoruytyHamaV5xveer7countryACSSSg_AC9JeasyVgaeVSgtcfc",
-            "mangledName": "$s9UianKiety11SoruytyHamaV5xveer7countryACSSSg_AC9JeasyVgaeVSgtcfc",
-            "moduleName": "UianKiety",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SoruytyHama",
-                "printedName": "UianKiety.SoruytyHama",
-                "usr": "s:9UianKiety11SoruytyHamaV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9UianKiety11SoruytyHamaV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s9UianKiety11SoruytyHamaV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "UianKiety",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:9UianKiety11SoruytyHamaV",
-        "mangledName": "$s9UianKiety11SoruytyHamaV",
-        "moduleName": "UianKiety",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "BleuaSoir",
         "printedName": "BleuaSoir",
         "children": [
@@ -3307,7 +3676,8 @@
         "mangledName": "$s9UianKiety9BleuaSoirV",
         "moduleName": "UianKiety",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -3388,757 +3758,6 @@
           "AccessControl"
         ],
         "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UianKiety"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "UianKiety"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ShanyaobianzhiVC",
-        "printedName": "ShanyaobianzhiVC",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "xindguoGHyue",
-            "printedName": "xindguoGHyue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UianKiety.BleuaSoir?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BleuaSoir",
-                    "printedName": "UianKiety.BleuaSoir",
-                    "usr": "s:9UianKiety9BleuaSoirV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvp",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvp",
-            "moduleName": "UianKiety",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UianKiety.BleuaSoir?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BleuaSoir",
-                        "printedName": "UianKiety.BleuaSoir",
-                        "usr": "s:9UianKiety9BleuaSoirV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvg",
-                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvg",
-                "moduleName": "UianKiety",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UianKiety.BleuaSoir?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BleuaSoir",
-                        "printedName": "UianKiety.BleuaSoir",
-                        "usr": "s:9UianKiety9BleuaSoirV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvs",
-                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvs",
-                "moduleName": "UianKiety",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvM",
-                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC12xindguoGHyueAA9BleuaSoirVSgvM",
-                "moduleName": "UianKiety",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "sjuosk",
-            "printedName": "sjuosk",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "WebKit.WKWebView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKWebView",
-                    "printedName": "WebKit.WKWebView",
-                    "usr": "c:objc(cs)WKWebView"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvp",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvp",
-            "moduleName": "UianKiety",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "WebKit.WKWebView?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WKWebView",
-                        "printedName": "WebKit.WKWebView",
-                        "usr": "c:objc(cs)WKWebView"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvg",
-                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvg",
-                "moduleName": "UianKiety",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "WebKit.WKWebView?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WKWebView",
-                        "printedName": "WebKit.WKWebView",
-                        "usr": "c:objc(cs)WKWebView"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvs",
-                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvs",
-                "moduleName": "UianKiety",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvM",
-                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC6sjuoskSo9WKWebViewCSgvM",
-                "moduleName": "UianKiety",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)viewDidLoad",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC11viewDidLoadyyF",
-            "moduleName": "UianKiety",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "viewDidLoad",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLayoutSubviews",
-            "printedName": "viewDidLayoutSubviews()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)viewDidLayoutSubviews",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC21viewDidLayoutSubviewsyyF",
-            "moduleName": "UianKiety",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "viewDidLayoutSubviews",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKNavigationAction",
-                "printedName": "WebKit.WKNavigationAction",
-                "usr": "c:objc(cs)WKNavigationAction"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKNavigationActionPolicy",
-                    "printedName": "WebKit.WKNavigationActionPolicy",
-                    "usr": "c:@E@WKNavigationActionPolicy"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)webView:decidePolicyForNavigationAction:decisionHandler:",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC7webView_15decidePolicyFor15decisionHandlerySo05WKWebF0C_So18WKNavigationActionCySo0mnH0VctF",
-            "moduleName": "UianKiety",
-            "isOpen": true,
-            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
-            "declAttributes": [
-              "ObjC",
-              "Preconcurrency",
-              "Custom"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webView",
-            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "WebKit.WKWebView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WKWebView",
-                    "printedName": "WebKit.WKWebView",
-                    "usr": "c:objc(cs)WKWebView"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebViewConfiguration",
-                "printedName": "WebKit.WKWebViewConfiguration",
-                "usr": "c:objc(cs)WKWebViewConfiguration"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKNavigationAction",
-                "printedName": "WebKit.WKNavigationAction",
-                "usr": "c:objc(cs)WKNavigationAction"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWindowFeatures",
-                "printedName": "WebKit.WKWindowFeatures",
-                "usr": "c:objc(cs)WKWindowFeatures"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC7webView_09createWebF4With3for14windowFeaturesSo05WKWebF0CSgAI_So0mF13ConfigurationCSo18WKNavigationActionCSo08WKWindowL0CtF",
-            "moduleName": "UianKiety",
-            "isOpen": true,
-            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
-            "declAttributes": [
-              "ObjC",
-              "Preconcurrency",
-              "Custom"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "webViewDidClose",
-            "printedName": "webViewDidClose(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKWebView",
-                "printedName": "WebKit.WKWebView",
-                "usr": "c:objc(cs)WKWebView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)webViewDidClose:",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC15webViewDidCloseyySo05WKWebF0CF",
-            "moduleName": "UianKiety",
-            "isOpen": true,
-            "objc_name": "webViewDidClose:",
-            "declAttributes": [
-              "ObjC",
-              "Preconcurrency",
-              "Custom"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "shouldAutorotate",
-            "printedName": "shouldAutorotate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(py)shouldAutorotate",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC16shouldAutorotateSbvp",
-            "moduleName": "UianKiety",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "shouldAutorotate",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)shouldAutorotate",
-                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC16shouldAutorotateSbvg",
-                "moduleName": "UianKiety",
-                "overriding": true,
-                "isOpen": true,
-                "objc_name": "shouldAutorotate",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "supportedInterfaceOrientations",
-            "printedName": "supportedInterfaceOrientations",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIInterfaceOrientationMask",
-                "printedName": "UIKit.UIInterfaceOrientationMask",
-                "usr": "c:@E@UIInterfaceOrientationMask"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(py)supportedInterfaceOrientations",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
-            "moduleName": "UianKiety",
-            "overriding": true,
-            "isOpen": true,
-            "objc_name": "supportedInterfaceOrientations",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIInterfaceOrientationMask",
-                    "printedName": "UIKit.UIInterfaceOrientationMask",
-                    "usr": "c:@E@UIInterfaceOrientationMask"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)supportedInterfaceOrientations",
-                "mangledName": "$s9UianKiety16ShanyaobianzhiVCC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
-                "moduleName": "UianKiety",
-                "overriding": true,
-                "isOpen": true,
-                "objc_name": "supportedInterfaceOrientations",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(nibName:bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ShanyaobianzhiVC",
-                "printedName": "UianKiety.ShanyaobianzhiVC",
-                "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.Bundle?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bundle",
-                    "printedName": "Foundation.Bundle",
-                    "usr": "c:objc(cs)NSBundle"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)initWithNibName:bundle:",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
-            "moduleName": "UianKiety",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithNibName:bundle:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UianKiety.ShanyaobianzhiVC?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ShanyaobianzhiVC",
-                    "printedName": "UianKiety.ShanyaobianzhiVC",
-                    "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC(im)initWithCoder:",
-            "mangledName": "$s9UianKiety16ShanyaobianzhiVCC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "UianKiety",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Required"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@UianKiety@objc(cs)ShanyaobianzhiVC",
-        "mangledName": "$s9UianKiety16ShanyaobianzhiVCC",
-        "moduleName": "UianKiety",
-        "isOpen": true,
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIViewController",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIViewController",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -4485,6 +4104,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/ShanyaobianzhiVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2713,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "IntegerLiteral",
       "offset": 284,
@@ -4508,126 +4134,126 @@
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "Array",
-      "offset": 7920,
+      "offset": 7915,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "Array",
-      "offset": 7960,
+      "offset": 7955,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8003,
+      "offset": 7998,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8038,
+      "offset": 8033,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 20277,
+      "offset": 20055,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 20313,
+      "offset": 20091,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 20472,
+      "offset": 20250,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 20483,
+      "offset": 20261,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "IntegerLiteral",
-      "offset": 20521,
+      "offset": 20299,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "FloatLiteral",
-      "offset": 20559,
+      "offset": 20337,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "FloatLiteral",
-      "offset": 27409,
+      "offset": 27183,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "FloatLiteral",
-      "offset": 27421,
+      "offset": 27195,
       "length": 4,
       "value": "0.84"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "FloatLiteral",
-      "offset": 27433,
+      "offset": 27207,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "FloatLiteral",
-      "offset": 27445,
+      "offset": 27219,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "FloatLiteral",
-      "offset": 27490,
+      "offset": 27264,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "FloatLiteral",
-      "offset": 27502,
+      "offset": 27276,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "FloatLiteral",
-      "offset": 27513,
+      "offset": 27287,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/GiocoView.swift",
       "kind": "FloatLiteral",
-      "offset": 27525,
+      "offset": 27299,
       "length": 3,
       "value": "1.0"
     },
@@ -4655,23 +4281,16 @@
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/KoeuysnTidus.swift",
       "kind": "FloatLiteral",
-      "offset": 4234,
+      "offset": 4244,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/KoeuysnTidus.swift",
       "kind": "FloatLiteral",
-      "offset": 4529,
+      "offset": 4539,
       "length": 3,
       "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/10\/1028-2\/UianKiety\/UianKiety\/ShanyaobianzhiVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2713,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
